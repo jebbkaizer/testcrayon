@@ -1,7 +1,7 @@
-import { Box, Divider, Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import { FC, useState } from "react";
 
-import { CrayonTabs, CrayonTypography } from "@accelo/crayon-react";
+import { CrayonTabs } from "@accelo/crayon-react";
 
 import {
   Avatar,
@@ -10,7 +10,7 @@ import {
   TabPanel,
   Tabs,
   Tokens,
-  Typography,
+  Typography
 } from "./components";
 
 export const Home: FC = () => {
@@ -57,8 +57,6 @@ export const Home: FC = () => {
 
       <TabPanel value={crayonTab} index={0}>
         <Box sx={{ my: 1 }}>
-          <CrayonTypography>Typography</CrayonTypography>
-          <Divider sx={{ my: 1 }} />
           <Grid container spacing={2}>
             <Typography />
           </Grid>
@@ -66,8 +64,6 @@ export const Home: FC = () => {
       </TabPanel>
       <TabPanel value={crayonTab} index={1}>
         <Box sx={{ my: 1 }}>
-          <CrayonTypography>Paper</CrayonTypography>
-          <Divider sx={{ my: 1 }} />
           <Grid container spacing={2}>
             <Paper />
           </Grid>
@@ -75,8 +71,6 @@ export const Home: FC = () => {
       </TabPanel>
       <TabPanel value={crayonTab} index={2}>
         <Box sx={{ my: 1 }}>
-          <CrayonTypography>Tabs</CrayonTypography>
-          <Divider sx={{ my: 1 }} />
           <Grid container spacing={2}>
             <Tabs />
           </Grid>
@@ -84,8 +78,6 @@ export const Home: FC = () => {
       </TabPanel>
       <TabPanel value={crayonTab} index={3}>
         <Box sx={{ my: 1 }}>
-          <CrayonTypography>Avatar</CrayonTypography>
-          <Divider sx={{ my: 1 }} />
           <Grid container spacing={2}>
             <Avatar />
           </Grid>
@@ -93,8 +85,6 @@ export const Home: FC = () => {
       </TabPanel>
       <TabPanel value={crayonTab} index={4}>
         <Box sx={{ my: 1 }}>
-          <CrayonTypography>Icons</CrayonTypography>
-          <Divider sx={{ my: 1 }} />
           <Grid container>
             <Icons />
           </Grid>
@@ -102,8 +92,6 @@ export const Home: FC = () => {
       </TabPanel>
       <TabPanel value={crayonTab} index={5}>
         <Box sx={{ my: 1 }}>
-          <CrayonTypography>Tokens</CrayonTypography>
-          <Divider sx={{ my: 1 }} />
           <Grid container>
             <Tokens />
           </Grid>

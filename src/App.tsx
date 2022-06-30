@@ -1,16 +1,9 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Home } from "./home";
 
 import {
-  Box,
-  Grid,
-  Container,
-  CircularProgress,
-  AppBar,
-  Toolbar,
-  Typography,
+  AppBar, Container, Grid, Toolbar,
+  Typography
 } from "@mui/material";
 
 function App() {
